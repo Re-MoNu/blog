@@ -1,5 +1,5 @@
 ---
-title: Welcome to Jekyll
+title: Some git commands
 categories: [dev]
 comments: true
 ---
