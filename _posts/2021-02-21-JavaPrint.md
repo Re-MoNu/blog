@@ -23,7 +23,8 @@ public class asdf02 {
 ```
 실행을 하면 실행 결과가 이렇게 나온다.   
     
-    Lorem Ipsum
+    Lorem Ipsum   
+
 하지만 여기에는 문제가 있다.   
 만약 여러줄을 출력할시에 줄 바꿈이 안된다.   
 
