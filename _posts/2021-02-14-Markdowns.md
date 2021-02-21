@@ -1,5 +1,5 @@
 ---
-title: 유용한 마크다운 여러개
+title: 유용한 마크다운 5개
 categories: [dev]
 comments: true
 ---
@@ -61,13 +61,3 @@ int main(){
     * * *   
     - - -   
 모두 수평선을 만든다.
-
-### 링크
----
-    <도메인>을 사용하여 출력한다.
-    
-<example.com>
-
-    또한 [이름](링크)를 사용하여 출력을 할수도 있다.   
-   
-예시: [example](example.com)
