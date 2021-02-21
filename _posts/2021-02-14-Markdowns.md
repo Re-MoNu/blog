@@ -69,4 +69,4 @@ int main(){
 
     또한 [이름](링크)를 사용하여 출력을 할수도 있다.   
 
-[example](example.com)    
+[example](example.com)   
