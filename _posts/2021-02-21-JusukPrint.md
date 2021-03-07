@@ -1,6 +1,6 @@
 ---
 title: 주석 표기
-categories: [dev]
+categories: [tips]
 comments: true
 ---
 
