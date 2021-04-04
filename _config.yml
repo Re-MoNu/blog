@@ -21,7 +21,7 @@ user:
   name: Re_MoNu
   pic: /assets/img/cat.jpg
   picAlt: "catbook"
-  job: WAS a youtuber
+  job: Korean Middle School Student
   aboutme: true # comment this out if you don't need the 'about' page.
 
 exclude:
