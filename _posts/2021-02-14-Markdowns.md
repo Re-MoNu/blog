@@ -1,6 +1,6 @@
 ---
 title: 유용한 마크다운 5개
-categories: [Tips]
+categories: [tips]
 comments: true
 ---
 ### 헤더
