@@ -1,6 +1,6 @@
 ---
 title: 자바 변수란?
-categories: [dev]
+categories: [Dev]
 comments: true
 ---
 자바나 다른 프로그래밍 언어에서 변수란,    

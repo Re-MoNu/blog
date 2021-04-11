@@ -1,6 +1,6 @@
 ---
 title: 자바에서 출력
-categories: [dev]
+categories: [Dev]
 comments: true
 ---
 당연하게도 프로그래밍에서 제일 기초적이자 제일 **중요한** 요소 중 하나가 출력이다

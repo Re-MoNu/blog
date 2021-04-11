@@ -1,6 +1,6 @@
 ---
 title: 자바 변수 종류
-categories: [dev]
+categories: [Dev]
 comments: true
 ---
 
