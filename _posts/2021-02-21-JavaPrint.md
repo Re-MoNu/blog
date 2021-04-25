@@ -20,8 +20,9 @@ public class Main {
 }
 ```
 실행을 하면 실행 결과가 이렇게 나온다.   
-    
-    Lorem Ipsum   
+```
+Lorem Ipsum   
+```
 또한 일반 글 말고도 [변수](https://re-monu.github.io/blog/2021-04/JavaTypesHow)를 그대로 출력을 할수도 있다.   
 ```java
 public class Main {
