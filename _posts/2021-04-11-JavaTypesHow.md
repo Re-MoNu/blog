@@ -34,7 +34,8 @@ int a = 21; //int 타입인 a를 선언하여 21을 할당
 선언방식은   
 ```java
 int num;
-```
+```   
+크기는 4-Byte다.   
 ### short   
 *short*는 정수 변수 중에서는 2번째로 제일 작다.     
 최대 **10000**까지 밖에 저장을 못하며, 생각나는 용도는 저장공간 절약 밖에 없다.   
@@ -42,7 +43,8 @@ int num;
 선언방식은   
 ```java
 short num;
-```
+```   
+크기는 2-Byte다.   
 ### long   
 정수 변수 중에서 제일 큰 값을 저장할 수 있다.      
 범위는 **9,223,372,036,854,775,807**(알아서 읽으셈)이다.   
@@ -56,10 +58,11 @@ long num;
 ```java
 long num = 19721121L;
 ```
-이렇게하면 컴파일러가 값을 **long**으로 인식한다.
+이렇게하면 컴파일러가 값을 **long**으로 인식한다.   
+크기는 무려 8-Byte다.
 ### Byte
 *byte*는 **-128**에서 **127**까지 밖에 저장못하는 제일 작은 정수 변수타입이다.   
-크기는 **4-byte**를 차지하는 *int*와는 다르게 **8-bit**로 자동지정이 된다.
+크기는 **4-Byte**를 차지하는 *int*와는 다르게 **8-Bit (1-Byte)**로 자동지정이 된다.
        
 선언방식은   
 ```java
@@ -76,6 +79,7 @@ byte num;
 char str; //일반 문자
 char[] strArr; //문자열(길이 선언 X)
 ```
+일반 **char**형은 크기가 2-Byte다.
 ### string   
 보통 더 긴 단어나 문장을 저장할때 쓰인다, 다행이도 **C**와는 달리 따로 파일 불러올 필요가 없다.   
        
@@ -83,6 +87,7 @@ char[] strArr; //문자열(길이 선언 X)
 ```java
 String str;
 ```
+크기 제한은 제대로 알려진건 없다.
 ## 실수
 - - -
 실수는 보통 유리수 중에서 정수가 아닌 유리수를 저장할 때 사용된다.   
@@ -95,12 +100,28 @@ String str;
 float fl;
 double db;
 ```
-와 같이 한다.
+와 같이 한다.   
+float는 4-Byte, double은 8-Byte다.
 # 명명규칙
 - - -   
-명명규칙은 변수를 선언하는 과정에서 이름을 정하는 규칙을 말한다, 이 규칙들은 어기면 컴파일 에러가 난다.      
+명명규칙은 변수를 선언하는 과정에서 이름을 정하는 규칙을 말한다.
+보통은 변수이름을 프로그래머가 원하는대로 정할 수 있지만, 다음 규칙을 **무조건** 따라야 한다.
 1. 예약어 금지   
-int나 char, if등 이미 정해진 것들은 불가능하다.   
+    int나 char, if등 이미 정해진 것들은 불가능하다.    
+        
+    *추가로 *java*에서의 예약어들:*
+    ```java
+    abstract  continue  for         new        switch
+    assert    default   goto        package    synchronized
+    boolean   do        if          private    this
+    break     double    implements  protected  throw
+    byte      else      import      public     throws
+    case      enum      instanceof  return     transient
+    catch     extends   int         short      try
+    char      final     interface   static     void
+    class     finally   long        strictfp   volatile
+    const     float     native      super      while
+    ```
 
 2. 숫자로 시작하면 안된다   
     ```
